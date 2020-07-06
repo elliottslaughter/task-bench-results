@@ -4,20 +4,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 67108864
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 8796093087744000
 Total Bytes 0
-Elapsed Time 2.178248e+02 seconds
-FLOP/s 4.038150e+13
+Elapsed Time 2.155355e+02 seconds
+FLOP/s 4.081041e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -25,20 +27,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 33554432
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 4398046576640000
 Total Bytes 0
-Elapsed Time 1.090080e+02 seconds
-FLOP/s 4.034608e+13
+Elapsed Time 1.078466e+02 seconds
+FLOP/s 4.078057e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -46,20 +50,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 33554432
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 4398046576640000
 Total Bytes 0
-Elapsed Time 1.090000e+02 seconds
-FLOP/s 4.034904e+13
+Elapsed Time 1.077850e+02 seconds
+FLOP/s 4.080389e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -67,20 +73,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 2199023321088000
 Total Bytes 0
-Elapsed Time 5.449905e+01 seconds
-FLOP/s 4.034975e+13
+Elapsed Time 5.391154e+01 seconds
+FLOP/s 4.078947e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -88,20 +96,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 2199023321088000
 Total Bytes 0
-Elapsed Time 5.450303e+01 seconds
-FLOP/s 4.034681e+13
+Elapsed Time 5.393393e+01 seconds
+FLOP/s 4.077254e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -109,20 +119,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 16777216
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 2199023321088000
 Total Bytes 0
-Elapsed Time 5.454064e+01 seconds
-FLOP/s 4.031899e+13
+Elapsed Time 5.391105e+01 seconds
+FLOP/s 4.078984e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -130,20 +142,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 1099511693312000
 Total Bytes 0
-Elapsed Time 2.725507e+01 seconds
-FLOP/s 4.034155e+13
+Elapsed Time 2.696494e+01 seconds
+FLOP/s 4.077560e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -151,20 +165,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 1099511693312000
 Total Bytes 0
-Elapsed Time 2.725725e+01 seconds
-FLOP/s 4.033832e+13
+Elapsed Time 2.713245e+01 seconds
+FLOP/s 4.052386e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -172,20 +188,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 1099511693312000
 Total Bytes 0
-Elapsed Time 2.725531e+01 seconds
-FLOP/s 4.034119e+13
+Elapsed Time 2.717192e+01 seconds
+FLOP/s 4.046499e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -193,20 +211,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 8388608
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 1099511693312000
 Total Bytes 0
-Elapsed Time 2.725716e+01 seconds
-FLOP/s 4.033845e+13
+Elapsed Time 2.695417e+01 seconds
+FLOP/s 4.079189e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -214,20 +234,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 549755879424000
 Total Bytes 0
-Elapsed Time 1.365076e+01 seconds
-FLOP/s 4.027291e+13
+Elapsed Time 1.399659e+01 seconds
+FLOP/s 3.927786e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -235,20 +257,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 549755879424000
 Total Bytes 0
-Elapsed Time 1.365642e+01 seconds
-FLOP/s 4.025621e+13
+Elapsed Time 1.397924e+01 seconds
+FLOP/s 3.932660e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -256,20 +280,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 549755879424000
 Total Bytes 0
-Elapsed Time 1.365581e+01 seconds
-FLOP/s 4.025803e+13
+Elapsed Time 1.349221e+01 seconds
+FLOP/s 4.074618e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -277,20 +303,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 549755879424000
 Total Bytes 0
-Elapsed Time 1.366228e+01 seconds
-FLOP/s 4.023896e+13
+Elapsed Time 1.348833e+01 seconds
+FLOP/s 4.075790e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -298,20 +326,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 4194304
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 549755879424000
 Total Bytes 0
-Elapsed Time 1.365344e+01 seconds
-FLOP/s 4.026501e+13
+Elapsed Time 1.352488e+01 seconds
+FLOP/s 4.064774e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -319,20 +349,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 274877972480000
 Total Bytes 0
-Elapsed Time 6.823958e+00 seconds
-FLOP/s 4.028131e+13
+Elapsed Time 6.753556e+00 seconds
+FLOP/s 4.070122e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -340,20 +372,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 274877972480000
 Total Bytes 0
-Elapsed Time 6.818353e+00 seconds
-FLOP/s 4.031442e+13
+Elapsed Time 6.827334e+00 seconds
+FLOP/s 4.026139e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -361,20 +395,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 274877972480000
 Total Bytes 0
-Elapsed Time 6.817653e+00 seconds
-FLOP/s 4.031856e+13
+Elapsed Time 6.938906e+00 seconds
+FLOP/s 3.961402e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -382,20 +418,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 274877972480000
 Total Bytes 0
-Elapsed Time 6.817278e+00 seconds
-FLOP/s 4.032078e+13
+Elapsed Time 6.754052e+00 seconds
+FLOP/s 4.069823e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -403,20 +441,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 2097152
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 274877972480000
 Total Bytes 0
-Elapsed Time 6.820241e+00 seconds
-FLOP/s 4.030326e+13
+Elapsed Time 7.005304e+00 seconds
+FLOP/s 3.923855e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -424,20 +464,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 137439019008000
 Total Bytes 0
-Elapsed Time 3.422891e+00 seconds
-FLOP/s 4.015291e+13
+Elapsed Time 3.508588e+00 seconds
+FLOP/s 3.917217e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -445,20 +487,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 137439019008000
 Total Bytes 0
-Elapsed Time 3.412892e+00 seconds
-FLOP/s 4.027055e+13
+Elapsed Time 3.630989e+00 seconds
+FLOP/s 3.785168e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -466,20 +510,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 137439019008000
 Total Bytes 0
-Elapsed Time 3.413316e+00 seconds
-FLOP/s 4.026554e+13
+Elapsed Time 3.389908e+00 seconds
+FLOP/s 4.054358e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -487,20 +533,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 137439019008000
 Total Bytes 0
-Elapsed Time 3.419098e+00 seconds
-FLOP/s 4.019745e+13
+Elapsed Time 3.387097e+00 seconds
+FLOP/s 4.057723e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -508,20 +556,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 1048576
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 137439019008000
 Total Bytes 0
-Elapsed Time 3.418395e+00 seconds
-FLOP/s 4.020572e+13
+Elapsed Time 3.460574e+00 seconds
+FLOP/s 3.971567e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -529,20 +579,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 68719542272000
 Total Bytes 0
-Elapsed Time 1.713313e+00 seconds
-FLOP/s 4.010916e+13
+Elapsed Time 1.703291e+00 seconds
+FLOP/s 4.034516e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -550,20 +602,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 68719542272000
 Total Bytes 0
-Elapsed Time 1.717998e+00 seconds
-FLOP/s 3.999978e+13
+Elapsed Time 1.709003e+00 seconds
+FLOP/s 4.021031e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -571,20 +625,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 68719542272000
 Total Bytes 0
-Elapsed Time 1.714717e+00 seconds
-FLOP/s 4.007632e+13
+Elapsed Time 1.696645e+00 seconds
+FLOP/s 4.050319e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -592,20 +648,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 68719542272000
 Total Bytes 0
-Elapsed Time 1.716609e+00 seconds
-FLOP/s 4.003215e+13
+Elapsed Time 1.752969e+00 seconds
+FLOP/s 3.920180e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -613,20 +671,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 524288
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 68719542272000
 Total Bytes 0
-Elapsed Time 1.713841e+00 seconds
-FLOP/s 4.009680e+13
+Elapsed Time 1.700222e+00 seconds
+FLOP/s 4.041799e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -634,20 +694,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 34359803904000
 Total Bytes 0
-Elapsed Time 8.612781e-01 seconds
-FLOP/s 3.989397e+13
+Elapsed Time 8.808680e-01 seconds
+FLOP/s 3.900676e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -655,20 +717,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 34359803904000
 Total Bytes 0
-Elapsed Time 8.601820e-01 seconds
-FLOP/s 3.994480e+13
+Elapsed Time 9.106469e-01 seconds
+FLOP/s 3.773120e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -676,20 +740,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 34359803904000
 Total Bytes 0
-Elapsed Time 8.626359e-01 seconds
-FLOP/s 3.983118e+13
+Elapsed Time 8.722918e-01 seconds
+FLOP/s 3.939026e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -697,20 +763,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 34359803904000
 Total Bytes 0
-Elapsed Time 8.619602e-01 seconds
-FLOP/s 3.986240e+13
+Elapsed Time 8.532999e-01 seconds
+FLOP/s 4.026697e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -718,20 +786,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 262144
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 34359803904000
 Total Bytes 0
-Elapsed Time 8.609331e-01 seconds
-FLOP/s 3.990996e+13
+Elapsed Time 1.004732e+00 seconds
+FLOP/s 3.419798e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -739,20 +809,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 17179934720000
 Total Bytes 0
-Elapsed Time 4.337211e-01 seconds
-FLOP/s 3.961056e+13
+Elapsed Time 4.505479e-01 seconds
+FLOP/s 3.813120e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -760,20 +832,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 17179934720000
 Total Bytes 0
-Elapsed Time 4.507990e-01 seconds
-FLOP/s 3.810997e+13
+Elapsed Time 4.657049e-01 seconds
+FLOP/s 3.689017e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -781,20 +855,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 17179934720000
 Total Bytes 0
-Elapsed Time 4.623411e-01 seconds
-FLOP/s 3.715857e+13
+Elapsed Time 5.335541e-01 seconds
+FLOP/s 3.219905e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -802,20 +878,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 17179934720000
 Total Bytes 0
-Elapsed Time 4.567921e-01 seconds
-FLOP/s 3.760996e+13
+Elapsed Time 4.276118e-01 seconds
+FLOP/s 4.017647e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -823,20 +901,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 131072
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 17179934720000
 Total Bytes 0
-Elapsed Time 4.418030e-01 seconds
-FLOP/s 3.888596e+13
+Elapsed Time 4.362071e-01 seconds
+FLOP/s 3.938482e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -844,20 +924,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 8590000128000
 Total Bytes 0
-Elapsed Time 2.401090e-01 seconds
-FLOP/s 3.577542e+13
+Elapsed Time 2.158442e-01 seconds
+FLOP/s 3.979723e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -865,20 +947,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 8590000128000
 Total Bytes 0
-Elapsed Time 2.200570e-01 seconds
-FLOP/s 3.903534e+13
+Elapsed Time 2.340081e-01 seconds
+FLOP/s 3.670814e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -886,20 +970,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 8590000128000
 Total Bytes 0
-Elapsed Time 2.252550e-01 seconds
-FLOP/s 3.813456e+13
+Elapsed Time 2.515261e-01 seconds
+FLOP/s 3.415152e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -907,20 +993,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 8590000128000
 Total Bytes 0
-Elapsed Time 2.399220e-01 seconds
-FLOP/s 3.580330e+13
+Elapsed Time 2.304840e-01 seconds
+FLOP/s 3.726940e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -928,20 +1016,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 65536
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 8590000128000
 Total Bytes 0
-Elapsed Time 2.251430e-01 seconds
-FLOP/s 3.815354e+13
+Elapsed Time 2.258151e-01 seconds
+FLOP/s 3.803998e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -949,20 +1039,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 4295032832000
 Total Bytes 0
-Elapsed Time 1.391089e-01 seconds
-FLOP/s 3.087533e+13
+Elapsed Time 1.121221e-01 seconds
+FLOP/s 3.830676e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -970,20 +1062,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 4295032832000
 Total Bytes 0
-Elapsed Time 1.119630e-01 seconds
-FLOP/s 3.836117e+13
+Elapsed Time 1.124740e-01 seconds
+FLOP/s 3.818691e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -991,20 +1085,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 4295032832000
 Total Bytes 0
-Elapsed Time 1.188970e-01 seconds
-FLOP/s 3.612399e+13
+Elapsed Time 1.119099e-01 seconds
+FLOP/s 3.837939e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1012,20 +1108,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 4295032832000
 Total Bytes 0
-Elapsed Time 1.144290e-01 seconds
-FLOP/s 3.753448e+13
+Elapsed Time 1.116359e-01 seconds
+FLOP/s 3.847357e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1033,20 +1131,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 32768
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 4295032832000
 Total Bytes 0
-Elapsed Time 1.113451e-01 seconds
-FLOP/s 3.857408e+13
+Elapsed Time 1.581430e-01 seconds
+FLOP/s 2.715916e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1054,20 +1154,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 2147549184000
 Total Bytes 0
-Elapsed Time 6.017113e-02 seconds
-FLOP/s 3.569069e+13
+Elapsed Time 6.028605e-02 seconds
+FLOP/s 3.562266e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1075,20 +1177,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 2147549184000
 Total Bytes 0
-Elapsed Time 5.903006e-02 seconds
-FLOP/s 3.638061e+13
+Elapsed Time 6.689405e-02 seconds
+FLOP/s 3.210374e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1096,20 +1200,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 2147549184000
 Total Bytes 0
-Elapsed Time 5.840015e-02 seconds
-FLOP/s 3.677301e+13
+Elapsed Time 1.230710e-01 seconds
+FLOP/s 1.744968e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1117,20 +1223,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 2147549184000
 Total Bytes 0
-Elapsed Time 5.887699e-02 seconds
-FLOP/s 3.647519e+13
+Elapsed Time 5.806780e-02 seconds
+FLOP/s 3.698348e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1138,20 +1246,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 16384
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 2147549184000
 Total Bytes 0
-Elapsed Time 5.849409e-02 seconds
-FLOP/s 3.671395e+13
+Elapsed Time 5.933905e-02 seconds
+FLOP/s 3.619116e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1159,20 +1269,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 1073807360000
 Total Bytes 0
-Elapsed Time 3.293896e-02 seconds
-FLOP/s 3.259992e+13
+Elapsed Time 8.582377e-02 seconds
+FLOP/s 1.251177e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1180,20 +1292,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 1073807360000
 Total Bytes 0
-Elapsed Time 3.175282e-02 seconds
-FLOP/s 3.381770e+13
+Elapsed Time 4.181314e-02 seconds
+FLOP/s 2.568110e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1201,20 +1315,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 1073807360000
 Total Bytes 0
-Elapsed Time 3.122497e-02 seconds
-FLOP/s 3.438938e+13
+Elapsed Time 3.491402e-02 seconds
+FLOP/s 3.075577e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1222,20 +1338,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 1073807360000
 Total Bytes 0
-Elapsed Time 3.287792e-02 seconds
-FLOP/s 3.266044e+13
+Elapsed Time 5.145216e-02 seconds
+FLOP/s 2.087002e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1243,20 +1361,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 8192
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 1073807360000
 Total Bytes 0
-Elapsed Time 3.259706e-02 seconds
-FLOP/s 3.294184e+13
+Elapsed Time 4.395986e-02 seconds
+FLOP/s 2.442700e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1264,20 +1384,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 536936448000
 Total Bytes 0
-Elapsed Time 1.893902e-02 seconds
-FLOP/s 2.835081e+13
+Elapsed Time 1.843405e-02 seconds
+FLOP/s 2.912743e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1285,20 +1407,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 536936448000
 Total Bytes 0
-Elapsed Time 1.890302e-02 seconds
-FLOP/s 2.840480e+13
+Elapsed Time 3.081393e-02 seconds
+FLOP/s 1.742512e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1306,20 +1430,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 536936448000
 Total Bytes 0
-Elapsed Time 1.777720e-02 seconds
-FLOP/s 3.020365e+13
+Elapsed Time 4.958797e-02 seconds
+FLOP/s 1.082796e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1327,20 +1453,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 536936448000
 Total Bytes 0
-Elapsed Time 1.992702e-02 seconds
-FLOP/s 2.694514e+13
+Elapsed Time 1.916409e-02 seconds
+FLOP/s 2.801785e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1348,20 +1476,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 4096
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 536936448000
 Total Bytes 0
-Elapsed Time 2.467108e-02 seconds
-FLOP/s 2.176380e+13
+Elapsed Time 1.948404e-02 seconds
+FLOP/s 2.755775e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1369,20 +1499,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 268500992000
 Total Bytes 0
-Elapsed Time 1.113701e-02 seconds
-FLOP/s 2.410890e+13
+Elapsed Time 2.153301e-02 seconds
+FLOP/s 1.246927e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1390,20 +1522,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 268500992000
 Total Bytes 0
-Elapsed Time 1.231480e-02 seconds
-FLOP/s 2.180312e+13
+Elapsed Time 2.804995e-02 seconds
+FLOP/s 9.572246e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1411,20 +1545,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 268500992000
 Total Bytes 0
-Elapsed Time 1.192403e-02 seconds
-FLOP/s 2.251764e+13
+Elapsed Time 2.886891e-02 seconds
+FLOP/s 9.300696e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1432,20 +1568,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 268500992000
 Total Bytes 0
-Elapsed Time 1.128983e-02 seconds
-FLOP/s 2.378254e+13
+Elapsed Time 2.440596e-02 seconds
+FLOP/s 1.100145e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1453,20 +1591,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 2048
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 268500992000
 Total Bytes 0
-Elapsed Time 1.181507e-02 seconds
-FLOP/s 2.272530e+13
+Elapsed Time 2.065897e-02 seconds
+FLOP/s 1.299682e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1474,20 +1614,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 134283264000
 Total Bytes 0
-Elapsed Time 9.320974e-03 seconds
-FLOP/s 1.440657e+13
+Elapsed Time 2.563214e-02 seconds
+FLOP/s 5.238862e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1495,20 +1637,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 134283264000
 Total Bytes 0
-Elapsed Time 9.105921e-03 seconds
-FLOP/s 1.474681e+13
+Elapsed Time 2.527809e-02 seconds
+FLOP/s 5.312239e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1516,20 +1660,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 134283264000
 Total Bytes 0
-Elapsed Time 8.126020e-03 seconds
-FLOP/s 1.652510e+13
+Elapsed Time 1.091695e-02 seconds
+FLOP/s 1.230044e+13
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1537,20 +1683,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 134283264000
 Total Bytes 0
-Elapsed Time 8.232832e-03 seconds
-FLOP/s 1.631070e+13
+Elapsed Time 2.395606e-02 seconds
+FLOP/s 5.605398e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1558,20 +1706,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 1024
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 134283264000
 Total Bytes 0
-Elapsed Time 7.861137e-03 seconds
-FLOP/s 1.708191e+13
+Elapsed Time 2.334213e-02 seconds
+FLOP/s 5.752828e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1579,20 +1729,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 67174400000
 Total Bytes 0
-Elapsed Time 7.143974e-03 seconds
-FLOP/s 9.402945e+12
+Elapsed Time 3.085184e-02 seconds
+FLOP/s 2.177322e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1600,20 +1752,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 67174400000
 Total Bytes 0
-Elapsed Time 5.885839e-03 seconds
-FLOP/s 1.141288e+13
+Elapsed Time 7.917881e-03 seconds
+FLOP/s 8.483886e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1621,20 +1775,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 67174400000
 Total Bytes 0
-Elapsed Time 6.902933e-03 seconds
-FLOP/s 9.731284e+12
+Elapsed Time 1.038599e-02 seconds
+FLOP/s 6.467790e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1642,20 +1798,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 67174400000
 Total Bytes 0
-Elapsed Time 9.068966e-03 seconds
-FLOP/s 7.407063e+12
+Elapsed Time 6.823063e-03 seconds
+FLOP/s 9.845197e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1663,20 +1821,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 512
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 67174400000
 Total Bytes 0
-Elapsed Time 6.088972e-03 seconds
-FLOP/s 1.103214e+13
+Elapsed Time 1.251006e-02 seconds
+FLOP/s 5.369630e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1684,20 +1844,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 33619968000
 Total Bytes 0
-Elapsed Time 5.180836e-03 seconds
-FLOP/s 6.489294e+12
+Elapsed Time 6.428957e-03 seconds
+FLOP/s 5.229459e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1705,20 +1867,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 33619968000
 Total Bytes 0
-Elapsed Time 6.502151e-03 seconds
-FLOP/s 5.170591e+12
+Elapsed Time 5.310059e-03 seconds
+FLOP/s 6.331374e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1726,20 +1890,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 33619968000
 Total Bytes 0
-Elapsed Time 5.847931e-03 seconds
-FLOP/s 5.749036e+12
+Elapsed Time 3.128004e-02 seconds
+FLOP/s 1.074806e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1747,20 +1913,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 33619968000
 Total Bytes 0
-Elapsed Time 7.863998e-03 seconds
-FLOP/s 4.275175e+12
+Elapsed Time 6.735086e-03 seconds
+FLOP/s 4.991765e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1768,20 +1936,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 256
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 33619968000
 Total Bytes 0
-Elapsed Time 5.259037e-03 seconds
-FLOP/s 6.392799e+12
+Elapsed Time 7.147074e-03 seconds
+FLOP/s 4.704019e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1789,20 +1959,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 128
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 16842752000
 Total Bytes 0
-Elapsed Time 5.532980e-03 seconds
-FLOP/s 3.044065e+12
+Elapsed Time 4.830122e-03 seconds
+FLOP/s 3.487024e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1810,20 +1982,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 128
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 16842752000
 Total Bytes 0
-Elapsed Time 7.703066e-03 seconds
-FLOP/s 2.186500e+12
+Elapsed Time 6.534100e-03 seconds
+FLOP/s 2.577670e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1831,20 +2005,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 128
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 16842752000
 Total Bytes 0
-Elapsed Time 4.647970e-03 seconds
-FLOP/s 3.623679e+12
+Elapsed Time 1.197410e-02 seconds
+FLOP/s 1.406599e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1852,20 +2028,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 128
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 16842752000
 Total Bytes 0
-Elapsed Time 4.987955e-03 seconds
-FLOP/s 3.376685e+12
+Elapsed Time 7.170916e-03 seconds
+FLOP/s 2.348759e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1873,20 +2051,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 128
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 16842752000
 Total Bytes 0
-Elapsed Time 7.873058e-03 seconds
-FLOP/s 2.139290e+12
+Elapsed Time 5.625010e-03 seconds
+FLOP/s 2.994262e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1894,20 +2074,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 64
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 8454144000
 Total Bytes 0
-Elapsed Time 6.170988e-03 seconds
-FLOP/s 1.369982e+12
+Elapsed Time 4.433870e-03 seconds
+FLOP/s 1.906719e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1915,20 +2097,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 64
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 8454144000
 Total Bytes 0
-Elapsed Time 1.096201e-02 seconds
-FLOP/s 7.712221e+11
+Elapsed Time 6.426096e-03 seconds
+FLOP/s 1.315596e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1936,20 +2120,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 64
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 8454144000
 Total Bytes 0
-Elapsed Time 4.698038e-03 seconds
-FLOP/s 1.799505e+12
+Elapsed Time 6.081820e-03 seconds
+FLOP/s 1.390068e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1957,20 +2143,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 64
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 8454144000
 Total Bytes 0
-Elapsed Time 7.948160e-03 seconds
-FLOP/s 1.063660e+12
+Elapsed Time 2.989793e-02 seconds
+FLOP/s 2.827669e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1978,20 +2166,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 64
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 8454144000
 Total Bytes 0
-Elapsed Time 4.472017e-03 seconds
-FLOP/s 1.890454e+12
+Elapsed Time 5.927086e-03 seconds
+FLOP/s 1.426358e+12
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -1999,20 +2189,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 32
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 4259840000
 Total Bytes 0
-Elapsed Time 4.603863e-03 seconds
-FLOP/s 9.252752e+11
+Elapsed Time 8.245945e-03 seconds
+FLOP/s 5.165982e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2020,20 +2212,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 32
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 4259840000
 Total Bytes 0
-Elapsed Time 4.816771e-03 seconds
-FLOP/s 8.843768e+11
+Elapsed Time 5.017042e-03 seconds
+FLOP/s 8.490740e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2041,20 +2235,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 32
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 4259840000
 Total Bytes 0
-Elapsed Time 4.518032e-03 seconds
-FLOP/s 9.428530e+11
+Elapsed Time 5.026817e-03 seconds
+FLOP/s 8.474229e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2062,20 +2258,22 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 32
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 4259840000
 Total Bytes 0
-Elapsed Time 1.268601e-02 seconds
-FLOP/s 3.357903e+11
+Elapsed Time 2.197289e-02 seconds
+FLOP/s 1.938679e+11
 B/s 0.000000e+00
 Running Task Benchmark
   Configuration:
@@ -2083,18 +2281,20 @@ Running Task Benchmark
       Time Steps: 1000
       Max Width: 1024
       Dependence Type: stencil_1d
-      Radix: 3
+      Radix: 5
       Period: 0
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
         Iterations: 32
+        Samples: 16
+        Imbalance: 0.000000
       Output Bytes: 16
       Scratch Bytes: 0
 Total Tasks 1024000
 Total Dependencies 3070000
 Total FLOPs 4259840000
 Total Bytes 0
-Elapsed Time 5.292892e-03 seconds
-FLOP/s 8.048227e+11
+Elapsed Time 1.864505e-02 seconds
+FLOP/s 2.284703e+11
 B/s 0.000000e+00

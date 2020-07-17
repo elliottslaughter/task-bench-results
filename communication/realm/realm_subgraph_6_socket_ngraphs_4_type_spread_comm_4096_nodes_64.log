@@ -1439,64 +1439,6 @@ Running Task Benchmark
       Fraction Connected: 0.250000
       Kernel:
         Type: compute_bound
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 4096
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 1920
-      Dependence Type: spread
-      Radix: 5
-      Period: 3
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 4096
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 1920
-      Dependence Type: spread
-      Radix: 5
-      Period: 3
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 4096
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 1920
-      Dependence Type: spread
-      Radix: 5
-      Period: 3
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 4194304
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 4096
-      Scratch Bytes: 0
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 1920
-      Dependence Type: spread
-      Radix: 5
-      Period: 3
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
         Iterations: 2097152
         Samples: 16
         Imbalance: 0.000000
@@ -3761,64 +3703,6 @@ Total Bytes 0
 Elapsed Time 3.353458e+00 seconds
 FLOP/s 1.921140e+13
 B/s 0.000000e+00
-Running Task Benchmark
-  Configuration:
-    Task Graph 1:
-      Time Steps: 250
-      Max Width: 1920
-      Dependence Type: spread
-      Radix: 5
-      Period: 3
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 131072
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 4096
-      Scratch Bytes: 0
-    Task Graph 2:
-      Time Steps: 250
-      Max Width: 1920
-      Dependence Type: spread
-      Radix: 5
-      Period: 3
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 131072
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 4096
-      Scratch Bytes: 0
-    Task Graph 3:
-      Time Steps: 250
-      Max Width: 1920
-      Dependence Type: spread
-      Radix: 5
-      Period: 3
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 131072
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 4096
-      Scratch Bytes: 0
-    Task Graph 4:
-      Time Steps: 250
-      Max Width: 1920
-      Dependence Type: spread
-      Radix: 5
-      Period: 3
-      Fraction Connected: 0.250000
-      Kernel:
-        Type: compute_bound
-        Iterations: 131072
-        Samples: 16
-        Imbalance: 0.000000
-      Output Bytes: 4096
-      Scratch Bytes: 0
 Running Task Benchmark
   Configuration:
     Task Graph 1:

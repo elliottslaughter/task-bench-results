@@ -1,0 +1,5 @@
+name,label,visible
+legion_util_1_trace_safe,Trace/Safe,True
+legion_util_1_notrace_safe,No Trace/Safe,True
+legion_util_1_trace_nosafe,Trace/No Safe,True
+legion_util_1_notrace_nosafe,No Trace/No Safe,True
